@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Pacyga-zad16
+</title>
+</head>
+<body>
+<div style="color: blue; font-size: 50px;">
+<script language="JavaScript">
+var a_pac = prompt("Podaj pierwszą liczbę =");
+var a = parseFloat(a_pac);
+var b_pac = prompt("Podaj drugą liczbę =");
+var b = parseFloat(b_pac);
+var m2_pac;
+
+m2_pac = Math.pac(a + b, 3);
+
+document.write("A=" + a + " B=" + b + "<br>");
+document.write("("+a+"+"+b+")" + "^3 = " + (Math.pac(a, 3) + 3 * a * a * b + 3 * a * b * b + Math.pac(b, 3)));
+</script>
+</div>
+</body>
+</html>
