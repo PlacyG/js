@@ -1,24 +1,19 @@
 <!DOCTYPE html>
-<html>
 <head>
-<title>
-Pacyga-zad16
-</title>
+<title> Skrócone mnożenie</title>
+<meta charset="utf -8">
 </head>
 <body>
-<div style="color: blue; font-size: 50px;">
+<div style="color:red;font-size:50px;">
 <script language="JavaScript">
-var a_pac = prompt("Podaj pierwszą liczbę =");
-var a = parseFloat(a_pac);
-var b_pac = prompt("Podaj drugą liczbę =");
-var b = parseFloat(b_pac);
-var m2_pac;
-
-m2_pac = Math.pac(a + b, 3);
-
-document.write("A=" + a + " B=" + b + "<br>");
-document.write("("+a+"+"+b+")" + "^3 = " + (Math.pac(a, 3) + 3 * a * a * b + 3 * a * b * b + Math.pac(b, 3)));
+var liczba1=prompt("podaj A=" , "");
+	var a_pac=parseFloat(liczba1);
+var liczba2=prompt("podaj B= ", "");
+	var b_pac=parseFloat(liczba2);
+document.write("A="+a_pac+"<br>");
+document.write("B="+b_pac+"<br>");
+document.write("("+a_pac+"+"+b_pac+")^3=");
+document.write(a_pac+"^"+"3+3*"+a_pac+"^2*"+b_pac+"+..."+"=");
+document.write(a_pac*a_pac*a_pac+".......");
 </script>
 </div>
-</body>
-</html>
