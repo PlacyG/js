@@ -10,26 +10,28 @@ window.close()
 <body>
 <form> <textarea name="pacyga" cols="70" rows="60" readonly>
 
-<!DOCTYPE html>
-<head>
-<title> Skrócone mnożenie</title>
-<meta charset="utf -8">
-</head>
-<body>
-<div style="color:red;font-size:50px;">
-<script language="JavaScript">
-var liczba1=prompt("podaj A=" , "");
-	var a_pac=parseFloat(liczba1);
-var liczba2=prompt("podaj B= ", "");
-	var b_pac=parseFloat(liczba2);
-document.write("A="+a_pac+"<br>");
-document.write("B="+b_pac+"<br>");
-document.write("("+a_pac+"+"+b_pac+")^3=");
-document.write(a_pac+"^"+"3+3*"+a_pac+"^2*"+b_pac+"+..."+"=");
-document.write(a_pac*a_pac*a_pac+".......");
-</script>
-</div>
 
-</html>
+ <!doctype html>
+ <head>
+     <title> proste obliczenia</title>
+     <meta charset="utf-8">
+ </head>
+ <body>
+     <div style="color:red;font-size: 50px;">
+     <script lang="JavaScript">
+         var liczba1=prompt("podaj a=","");
+         var a_pac=parseFloat(liczba1);
+         var liczba2=prompt("podaj b=","");
+         var b_pac=parseFloat(liczba2);
+         document.write("a="+a_pac+"<br>");
+         document.write("b="+b_pac+"<br>");
+         document.write("("+a_pac+"+"+b_pac+")^3=");
+         document.write(+a_pac+"^"+"3+3*"+a_pac+"^2*"+b_pac+"+3*"+a_pac+"*"+b_pac+"^2+"+b_pac+"^"+"3"+"=");
+         document.write(+a_pac*a_pac*a_pac+3*(a_pac*a_pac)*b_pac+3*a_pac*(b_pac*b_pac)+b_pac*b_pac*b_pac);
+     </script>
+     </div>
+ </body>
+ </html>
+ 
 </body>
 </html>
