@@ -1,0 +1,24 @@
+<html>
+<head>
+<title> Pacyga-obiektowe </title>
+<script type="text/javascript">
+var router = {
+adres_mac : '27-DA-4F-AA-C4-B5',
+liczba_portow: 'siedem LAN, jeden WAN',
+producent: 'TP Link',
+pokaz_pacyga: function ()
+{
+document.write(this.adres_mac +'<br>'+' ' + this.liczba_portow + '<br>' + this.producent)
+}
+}
+router.pokaz_pacyga();
+router.przepustowosc=100;
+router.wypisz_pacyga=function() {alert('przepustowosc: ' + this.przepustowosc + 'Mb/s')}
+router.wypisz_pacyga();
+</script>
+</head>
+<body>
+<br>
+programowanie obiektowe
+</body>
+</html>
